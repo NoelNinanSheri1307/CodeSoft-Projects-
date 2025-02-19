@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Quote Display Box -->
+        <TextView
+            android:id="@+id/quoteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            android:text="The quote will appear here"
+            android:textColor="@color/blue_primary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/myfont"
+            android:background="@drawable/quote_background" />
+
+        <!-- New Quote Button -->
+        <Button
+            android:id="@+id/newQuoteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Quote"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:id="@+id/saveQuoteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Quote"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:id="@+id/shareQuoteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Quote"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/myfont"/>
+
+        <Button
+            android:id="@+id/viewSavedQuotesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Saved Quotes"
+            android:backgroundTint="@android:color/holo_purple"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/myfont"/>
+
+        <!-- Developed By Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="Developed by Noel Ninan Sheri"
+            android:textColor="@color/blue_primary"
+            android:textSize="14sp"
+            android:fontFamily="@font/myfont" />
+
+    </LinearLayout>
+</ScrollView>
