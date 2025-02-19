@@ -128,4 +128,5 @@ Open Android Studio and import the desired app folder.
 Build and run the project on an emulator or physical device.
 🙌 Acknowledgements
 Self-driven learning and exploration during my internship with CodSoft helped me understand how much I can achieve in a self-motivating environment.
+
 Developed With Curiosity By Noel Ninan Sheri
