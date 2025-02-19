@@ -44,12 +44,19 @@ TaskListApp/
 │ │ │ ├── java/com/example/tasklistapp/
 
 │ │ │ │ ├── MainActivity.java
+
 │ │ │ │ ├── Task.java
+
 │ │ │ │ └── TaskAdapter.java
+
 │ │ │ └── res/layout/
+
 │ │ │ ├── activity_main.xml
+
 │ │ │ └── item_task.xml
+
 │ │ └── res/values/ (colors, strings, themes)
+
 └── build.gradle
 
 
@@ -84,23 +91,33 @@ QuoteOfTheDayApp delivers daily inspirational quotes with options to:
 ### 📂 **Project Structure:**  
 QuoteOfTheDayApp/
 ├── app/
+
 │ ├── src/
+
 │ │ ├── main/
+
 │ │ │ ├── java/com/example/quoteoftheday/
+
 │ │ │ │ ├── MainActivity.java
+
 │ │ │ │ ├── SavedQuotesActivity.java
+
 │ │ │ │ └── QuoteStorage.java
+
 │ │ │ └── res/layout/
+
 │ │ │ ├── activity_main.xml
+
 │ │ │ └── activity_saved_quotes.xml
+
 │ │ └── res/font/myfont.ttf (Custom font)
+
 └── build.gradle
 
 ### 🧩 **Code Explanation:**  
 - **MainActivity.java:** Handles quote randomization, saving, and sharing.  
 - **SavedQuotesActivity.java:** Displays a list of saved quotes.  
 - **QuoteStorage.java:** Manages quote storage using SharedPreferences.  
-
 
 
 ## 🏆 **Installation & Usage**  
