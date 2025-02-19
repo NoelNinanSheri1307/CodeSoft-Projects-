@@ -36,9 +36,13 @@ TaskListApp helps users manage their daily tasks efficiently. Users can:
 ### 📂 **Project Structure:**  
 TaskListApp/
 ├── app/
+
 │ ├── src/
+
 │ │ ├── main/
+
 │ │ │ ├── java/com/example/tasklistapp/
+
 │ │ │ │ ├── MainActivity.java
 │ │ │ │ ├── Task.java
 │ │ │ │ └── TaskAdapter.java
@@ -54,10 +58,6 @@ TaskListApp/
 - **Task.java:** Data class representing a task.  
 - **TaskAdapter.java:** Adapter for rendering the task list with priority indicators.  
 
-### 📸 **Demo Screenshots:**  
-> *(Add your screenshots here)*  
-
----
 
 ## 📖 **2. QuoteOfTheDayApp**  
 
