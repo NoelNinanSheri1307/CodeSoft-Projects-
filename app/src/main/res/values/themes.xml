@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Theme -->
+    <style name="Theme.TaskListApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize primary colors if needed -->
+        <item name="android:windowBackground">@color/background_black</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorPrimary">@color/cyan</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:fontFamily">@font/myfont</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tasks App By Noel</string>
+    <string name="add_task">Add Task</string>
+    <string-array name="priority_options">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+</resources>
