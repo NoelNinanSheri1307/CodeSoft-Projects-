@@ -18,6 +18,7 @@ This repository contains two Android applications developed as part of my intern
 
 ## 📱 **1. TaskListApp**  
 
+
 ### 📝 **Description:**  
 TaskListApp helps users manage their daily tasks efficiently. Users can:  
 ✅ Add new tasks  
